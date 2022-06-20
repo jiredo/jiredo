@@ -315,7 +315,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 <!-- Git-Repos -->
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-	  <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-spinner fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Software Development</h2>
+	  <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file-code-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Software Development</h2>
       <div class="w3-container">
 
 	  </div>
