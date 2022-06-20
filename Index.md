@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Dr. Kow Jun Wai</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -30,10 +30,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
         </div>
         <div class="w3-container">
+          <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://jiredo.github.io/jiredo/">Jun Wai Kow</a></p>
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Mechtronics & Robotics Engineer</p> <!-- Name -->
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Leeds, UK</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>junwkow@gmail.com</p>
-          <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/kowjw/">LinkedIn Profile</a></p>
+          <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/kowjw/">LinkedIn Profile</a></p>	
           <p><i class="fa fa-car fa-fw w3-margin-right w3-large w3-text-teal"></i> 12years Experience- International License (Dec'22)</p>
 
           <!-- <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p> --> <!-- Remove Phone for now -->
