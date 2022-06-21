@@ -1,0 +1,121 @@
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+/**
+  * Flippers alternate
+  *
+  * @author jh3y - jheytompkins.com
+*/
+@-webkit-keyframes flippers {
+    0% {
+      -webkit-transform: perspective(40px) rotateY(-180deg);
+              transform: perspective(40px) rotateY(-180deg); }
+    50% {
+      -webkit-transform: perspective(40px) rotateY(0deg);
+              transform: perspective(40px) rotateY(0deg); } }
+  @keyframes flippers {
+    0% {
+      -webkit-transform: perspective(40px) rotateY(-180deg);
+              transform: perspective(40px) rotateY(-180deg); }
+    50% {
+      -webkit-transform: perspective(40px) rotateY(0deg);
+              transform: perspective(40px) rotateY(0deg); } }
+  
+  @-webkit-keyframes flippers-alternate {
+    0% {
+      -webkit-transform: perspective(40px) rotateY(180deg);
+              transform: perspective(40px) rotateY(180deg); }
+    50% {
+      -webkit-transform: perspective(40px) rotateY(0deg);
+              transform: perspective(40px) rotateY(0deg); } }
+  
+  @keyframes flippers-alternate {
+    0% {
+      -webkit-transform: perspective(40px) rotateY(180deg);
+              transform: perspective(40px) rotateY(180deg); }
+    50% {
+      -webkit-transform: perspective(40px) rotateY(0deg);
+              transform: perspective(40px) rotateY(0deg); } }
+  
+  .flippers-alternate {
+    height: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 20px);
+    grid-gap: 5px; }
+    .flippers-alternate div {
+      background-color: var(--primary); }
+      .flippers-alternate div:nth-of-type(1) {
+        -webkit-animation: flippers-alternate 1.25s 0.25s infinite ease;
+                animation: flippers-alternate 1.25s 0.25s infinite ease; }
+      .flippers-alternate div:nth-of-type(2) {
+        -webkit-animation: flippers 1.25s 0.5s infinite ease;
+                animation: flippers 1.25s 0.5s infinite ease; }
+      .flippers-alternate div:nth-of-type(3) {
+        -webkit-animation: flippers-alternate 1.25s 0.75s infinite ease;
+                animation: flippers-alternate 1.25s 0.75s infinite ease; }
+      .flippers-alternate div:nth-of-type(4) {
+        -webkit-animation: flippers 1.25s 1s infinite ease;
+                animation: flippers 1.25s 1s infinite ease; }
+      .flippers-alternate div:nth-of-type(5) {
+        -webkit-animation: flippers-alternate 1.25s 1.25s infinite ease;
+                animation: flippers-alternate 1.25s 1.25s infinite ease; }
+
+
+/**
+  * Blades
+  *
+  * @author jh3y - jheytompkins.com
+  *
+*/
+.blades {
+    -webkit-animation: spin 1s infinite linear;
+            animation: spin 1s infinite linear;
+    height: 20px;
+    width: 20px; }
+    .blades div {
+      border: 4px solid transparent;
+      border-left-color: var(--primary);
+      height: 20px;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      -webkit-transform-origin: top left;
+              transform-origin: top left;
+      width: 20px; }
+    .blades div:nth-child(1) {
+      -webkit-transform: rotate(72deg) translateY(5px);
+              transform: rotate(72deg) translateY(5px); }
+    .blades div:nth-child(2) {
+      -webkit-transform: rotate(144deg) translateY(5px);
+              transform: rotate(144deg) translateY(5px); }
+    .blades div:nth-child(3) {
+      -webkit-transform: rotate(216deg) translateY(5px);
+              transform: rotate(216deg) translateY(5px); }
+    .blades div:nth-child(4) {
+      -webkit-transform: rotate(288deg) translateY(5px);
+              transform: rotate(288deg) translateY(5px); }
+    .blades div:nth-child(5) {
+      -webkit-transform: rotate(360deg) translateY(5px);
+              transform: rotate(360deg) translateY(5px); }
+  
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg); } }
+  
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg); } }
