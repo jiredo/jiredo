@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 -->
 
 <h1 align="Center">
-<img src="https://www.stormlabuk.com/wp-content/uploads/2021/05/Jun.jpg" style="width:200px height="200px" alt="Avatar" />
+<img src="https://www.stormlabuk.com/wp-content/uploads/2021/05/Jun.jpg" style="width:100px height:"100px" alt="Avatar" />
 <br />
 </h1>
 
