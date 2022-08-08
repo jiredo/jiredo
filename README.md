@@ -1,6 +1,8 @@
-### Hi there 👋
 
 <!--
+
+### Hi there 👋
+
 **jiredo/jiredo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -13,4 +15,14 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 
 - ⚡ Fun fact: ...
+
 -->
+
+<h1 align="Center">
+<img src="https://www.stormlabuk.com/wp-content/uploads/2021/05/Jun.jpg" style="width:200px height="200px" alt="Avatar" />
+<br />
+</h1>
+
+
+
+<!-- Display Picture -->
