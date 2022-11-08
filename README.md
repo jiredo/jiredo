@@ -50,7 +50,7 @@ Last updated: 8th Oct-2022
 
 <div>
     <!--Medical Device Develoment Engineer -->
-    <h1 align="Center"> Medical Device Development Engineer </h1>
+    <h3 align="Center"> Medical Device Development Engineer </h3>
     Atlas Endoscopy, Leeds UK.   August 2020 - Current
     <ul>
         <li> Designed and developed an ergonomic hand-held device with on-board endoscope ancillary functions and electronic peripherals for controlling a 6-DOF robotic arm (LBR MED – KUKA Robotic Arm). </li>
@@ -61,13 +61,13 @@ Last updated: 8th Oct-2022
         <li> Coordinated efforts for the implementation of enterprise asset management system to enable tracking of metrics towards overall system effectiveness (quality, performance, availability). </li>
     </ul> 
     <!--Research Associate -->
-    <h1 align="Center"> Research Associate in Medical Device Development </h1>
+    <h3 align="Center"> Research Associate in Medical Device Development </h3>
     STORM Labs, University of Leeds, Leeds UK.   October 2019 - August 2020
     <ul>
-        <li> •	Led the development of the implementation of ancillary functions within the developed robotic endoscope system. </li>
-        <li> •	Departmental subject matter expert to provide technical support for additive manufacturing and rapid prototyping of soft materials. </li>
-        <li> •	Assisted in the identification, procurement, and development of needed equipment and consumables for endoscopy. </li>
-        <li> •	Aided in the preparation for medical device regulatory submissions during product development (ISO8600 and IEC 6060-1). </li>
+        <li> Led the development of the implementation of ancillary functions within the developed robotic endoscope system. </li>
+        <li> Departmental subject matter expert to provide technical support for additive manufacturing and rapid prototyping of soft materials. </li>
+        <li> Assisted in the identification, procurement, and development of needed equipment and consumables for endoscopy. </li>
+        <li> Aided in the preparation for medical device regulatory submissions during product development (ISO8600 and IEC 6060-1). </li>
     </ul>
     
 
