@@ -40,7 +40,7 @@ Last updated: 8th Oct-2022
     </tr>    
 -->
 
-# Intro
+<!-- # Intro -->
 <div align="Center"> 
     <h1> Jun Wai Kow </h1>     
 </div>
