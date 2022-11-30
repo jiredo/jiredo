@@ -44,7 +44,7 @@ Last updated: 8th Oct-2022
 <div align="Center"> 
     <h1> Jun Wai Kow </h1>     
 </div>
-
+<!--
 
 # Employment / Work History
 
@@ -72,7 +72,7 @@ Last updated: 8th Oct-2022
     
 
 
-
+-->
 
 
 
