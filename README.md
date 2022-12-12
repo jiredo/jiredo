@@ -15,36 +15,18 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 
 - ⚡ Fun fact: ...
-
-
-
-
-<h1 align="Center">
-<img src="https://www.stormlabuk.com/wp-content/uploads/2021/05/Jun.jpg" style="width:100px height:"100px" alt="Avatar" />
-<br />
-</h1>
-
-
--->
-
-<!-- Revised version for Github Display for Profile 
-Last updated: 8th Oct-2022
--->
-
-<!--
-# Content
-<table>
-    <tr>
-        <th>Intro</th>
-        <th></th>
-    </tr>    
+    
 -->
 
 <!-- # Intro -->
-<div align="Center"> 
-    <h1> Jun Wai Kow </h1>     
+<div align="Center">
+    <h1>
+        <a href="https://jiredo.github.io/jiredo/"> Jun Wai Kow </a>
+    </h1>
 </div>
-<!--
+
+
+
 
 
 
