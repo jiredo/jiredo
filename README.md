@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 <!-- # Intro -->
 <div align="Center">
     <h1>
-        <a href="https://jiredo.github.io/jiredo/"> Jun Wai Kow </a>
+        <a href="https://jiredo.github.io/jiredo/"><i title:"Online-CV"></i> Jiredo </a>
     </h1>
 </div>
 
