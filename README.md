@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 <div align="Center"><h1><a href="https://jiredo.github.io/jiredo/"><i title:"Online-CV"></i> Jiredo </a></h1></div>
 
 <div style="text-align: justify">
-<b>Welcome!</b> to this little corner of this vast void of the internet! I'm Jun Kow (IRL), a Mechatronics and Robotics engineer by qualification, but is more of a jack of traits despite having a PhD in Soft Robotics and now as a Medical device development engineer. You can check out my CV here(https://jiredo.github.io/jiredo/)!
+<b>Welcome!</b> to this little corner in the vast void of the internet! I'm Jun Kow (IRL), a Mechatronics and Robotics engineer by qualification, but is more of a jack of traits despite having a PhD in Soft Robotics; and now as a Medical device development engineer. You can check out my CV here(https://jiredo.github.io/jiredo/)!
 
 This repository is both my personal space for tinkering and also a work environment.
 </div>
