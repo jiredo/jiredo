@@ -27,5 +27,5 @@ Here are some ideas to get you started:
 This repository is both my personal space for tinkering and also a work environment.
 </div>
 
-## Tinkering Space
+## Tinkering Spaces
 - [CryoPrint](https://jiredo.github.io/CryoPrint/)
