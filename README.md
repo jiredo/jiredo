@@ -16,11 +16,6 @@ This repository is both my personal space for tinkering and also a work environm
 - [CryoPrint](https://jiredo.github.io/CryoPrint/)
 
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F414683078194117540%2F&psig=AOvVaw0bqUMWFl_0Qwhasgl6rqip&ust=1671633476556000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCMC16I62iPwCFQAAAAAdAAAAABAE)
-
-
-
-
 
 
 
