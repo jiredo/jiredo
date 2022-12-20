@@ -13,7 +13,7 @@ This repository is both my personal space for tinkering and also a work environm
 </div>
 
 ## Tinkering Spaces for Public View
-- [CryoPrint](https://jiredo.github.io/CryoPrint/)
+- [CryoPrint](https://github.com/jiredo/CryoPrint.git)
 
 
 
