@@ -6,7 +6,7 @@ Last Updated: Dec 2022
 <div align="Center"><h1><a href="https://jiredo.github.io/jiredo/"><i title:"Online-CV"></i> Jiredo </a></h1></div>
 
 <div style="text-align: justify">
-✨<b>Welcome!</b> ✨to this little corner in the vast void of the internet! I'm Jun Kow (IRL), a Mechatronics and Robotics engineer by qualification, but is more of a jack of traits despite having a PhD in Soft Robotics; and now as a Medical device development engineer. You can check out my CV <a href="https://jiredo.github.io/jiredo">here!</a> 
+✨<b>Welcome!</b> ✨to this little corner in the vast void of the internet! I'm Jun Kow (IRL), a Mechatronics and Robotics engineer by qualification, but is more of a jack of traits despite having a PhD in Soft Robotics; and now as a Medical device development engineer. You can check out my WebCV <a href="https://jiredo.github.io/jiredo">here!</a> 
 
 This repository is both my personal space for tinkering and also a work environment. If you'd like to get in touch to discuss some matters, feel free to drop me an <a href=mailto:junwkow.com>📫 email.</a>
 
