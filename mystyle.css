@@ -36,5 +36,6 @@ a:hover i {
   }
 
   .companyIcon {
+    width: auto;
     float: right;
   }
