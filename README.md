@@ -12,9 +12,7 @@ This repository is both my personal space for tinkering and also a work environm
 
 </div>
 
-[![Jiredo's GitHub stats](https://github-readme-stats.vercel.app/api?username=jiredo)](https://github.com/anuraghazra/github-readme-stats)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jiredo&layout=compact)
 
 ## Tinkering Spaces for Public View
 - [CryoPrint](https://github.com/jiredo/CryoPrint.git)
@@ -49,6 +47,17 @@ This repository is both my personal space for tinkering and also a work environm
 
 
 <!--
+
+[Dev]
+// Github Stats
+[![Jiredo's GitHub stats](https://github-readme-stats.vercel.app/api?username=jiredo)](https://github.com/anuraghazra/github-readme-stats)
+// Most Language Stat
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jiredo&layout=compact)
+
+
+
+
+[Initial Readme Entry:]
 
 ### Hi there 👋
 
