@@ -1,62 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <!-- 
-  Last Update- January 2025
+  Last Update- March 2023
 
   To Do's
-  - Remove initial tab on top, make each tab ontop of the right panel
-  - Left tab to change when right tabs are selected to existing positions.
-  - [Above two listed are to summarise everything into sections rather than have a long page]
+  - Engineering Project Gallery
+  - 
 -->
+
 <head>
+  <link rel="icon" type="image/x-icon" src="/jiredo/media/favicon_package_v0.16/favicon.ico">
   <title>Dr Kow Jun Wai, PhD</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mystyle.css">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-.tab {
-  display: none;
-}
-.tab.active {
-  display: block;
-}
-.tab-buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-.tab-buttons button {
-  flex: 1;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-.tab-buttons button.active {
-  background-color: #009688;
-  color: white;
-}
 </style>
 </head>
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------  -->
 <body class="w3-dark-grey">
+<!-- Page Container [Main Body]-->
 
-<!-- Page Container -->
+<div class ="topnav">
+  <a class="active" href="#Work"><i class="fa fa-suitcase fa-fw w3-xlarge" title="Work Experience"></i></a>
+  <a href="#Academic"><i class="fa fa-graduation-cap fa-fw w3-xlarge" title="Academic"></i></a>
+  <a href="#Proj"><i class="fa fa-microchip fa-fw w3-xlarge" title="Projects"></i></a>
+  <a href="#CryoPrint"><i class="fa fa-microchip fa-fw w3-xlarge" title="CryoPrint"></i></a>
+  
+</div>
+
+
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <!-- The Grid -->
+  <!-- The Grid [Two Columns Page [][  ] ]-->
   <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-      <div id="left-column-content" class="w3-white w3-text-black w3-card-4">
-        <!-- Default Content for Left Column -->
+
+<!-- Left Column -->
+  <div class="w3-third">
+<!-- Profile -->
+      <div class="w3-white w3-text-black w3-card-4">
+        <!--Display Picture -/->
+        <div class="w3-display-container">
+          <img src="https://www.stormlabuk.com/wp-content/uploads/2021/05/Jun.jpg" style="width:100%" alt="Avatar">
+        </div><!-/-DP End-->
+        <!-- Content Below DP List-->
         <div class="w3-container">
-          <h3>Welcome</h3>
-          <p>Select a tab to see more details.</p>
-          <hr>
-          <!-- Main Page Content -->
+          
           <p>
             <!-- Name Header/Title -->
             <h2 class="w3-text-black w3-padding-5"><i class="fa fa-user fa-fw w3-margin-center w3-large w3-text-indigo"></i> &nbsp; Jun Wai Kow</h2>
@@ -95,213 +89,218 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
               <td><p><a href="https://github.com/jiredo/jiredo/blob/main/CV/JunKowCV_24.pdf"><i class="fa fa-file fa-fw w3-margin-right w3-large w3-text-indigo" title="CV.pdf"></i></a></p></td> <!-- CV link to PDF-->
             </tr>
           </table>
-        <!-- End Profile Content -->          
-         <!-- Technical Skills -->
-         <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Manufacturing Know-how</b></p>
-         <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Additive Manufacturing</p>
-         <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Fused Deposition Manufacturing (FDM)</p>
-         <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Stereolithography (SLA)</p>
-         <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Selective Laser Sintering (SLS)</p>
-         <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Composite Layering (CL)</p>
-         <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Laser Cutting/Engraving</p>
-         <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Moulding & Casting</p>
-         <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Vacuum</p>
-         <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Injection/Extrusion</p>
-         <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Die/Investment</p>
-         <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Workshop/Machining</p>
-         <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Bespoke Manufacturing</p>
-         <hr>
+          <!-- <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-indigo"></i>1224435534</p> --> <!-- Remove Phone for now -->
+        <hr>
+<!-- Technical Skills -->
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Manufacturing Know-how</b></p>
+          <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Additive Manufacturing</p>
+          <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Fused Deposition Manufacturing (FDM)</p>
+          <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Stereolithography (SLA)</p>
+          <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Selective Laser Sintering (SLS)</p>
+          <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Composite Layering (CL)</p>
+          <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Laser Cutting/Engraving</p>
+          <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Moulding & Casting</p>
+          <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Vacuum</p>
+          <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Injection/Extrusion</p>
+          <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Die/Investment</p>
+          <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Workshop/Machining</p>
+          <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Bespoke Manufacturing</p>
+        <hr>
 
-        
-        <!-- Programming languages-->
-        <p class="w3-large" style="width:auto"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Programming Know-how</b></p>
-        <!-- List -->
-        <table style="width:100%">
-        <tr>
-          <td><p><i class="fa fa-code" aria-hidden="true"></i> C/C++</p></td>
-          <td><p><i class="fa fa-terminal" aria-hidden="true"></i> Python</p></td>
-        </tr>
-        <tr>
-          <td><p><i class="fa fa-ellipsis-v" aria-hidden="true"></i> MATLAB</p></td>
-          <td><p><i class="fa fa-window-restore" aria-hidden="true"></i> NI LabVIEW</p></td> 
-        </tr>
-        <tr>
-          <td><p><i class="fa fa-sitemap" aria-hidden="true"></i> Embedded Electronics</p></td>
-          <td><p><i class="fa fa-object-group" aria-hidden="true"></i> FGPA Architectures</p></td> 
-        </tr>
-        <tr>
-          <td><p><i class="fa fa-html5" aria-hidden="true"></i> HTML</p></td>
-          <td><p><i class="fa fa-css3" aria-hidden="true"></i> CSS</p></td>
-        </tr>
-        <tr>
-          <td><p><i class="fa fa-file-text" aria-hidden="true"></i> Markdown</p></td>
-          <td><p><i class="fa fa-crosshairs" aria-hidden="true"></i> ROS</p></td>  
-        </tr>
-        <tr>
-          <td><p><i class="fa fa-windows" aria-hidden="true"></i> Windows</p></td>
-          <td><p><i class="fa fa-linux" aria-hidden="true"></i>Linux</p></td>
-        </tr>
-        <tr> 
-          <td><p><i class="fa fa-microchip" aria-hidden="true"></i> Machine Learning</p></td>
-          <td><p></p></td>
-        </tr>
-        </table>
+<!-- Programming languages-->
+          <p class="w3-large" style="width:auto"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Programming Know-how</b></p>
+          <!-- List -->
+          <table style="width:100%">
+          <tr>
+            <td><p><i class="fa fa-code" aria-hidden="true"></i> C/C++</p></td>
+            <td><p><i class="fa fa-terminal" aria-hidden="true"></i> Python</p></td>
+          </tr>
+          <tr>
+            <td><p><i class="fa fa-ellipsis-v" aria-hidden="true"></i> MATLAB</p></td>
+            <td><p><i class="fa fa-window-restore" aria-hidden="true"></i> NI LabVIEW</p></td> 
+          </tr>
+          <tr>
+            <td><p><i class="fa fa-sitemap" aria-hidden="true"></i> Embedded Electronics</p></td>
+            <td><p><i class="fa fa-object-group" aria-hidden="true"></i> FGPA Architectures</p></td> 
+          </tr>
+          <tr>
+            <td><p><i class="fa fa-html5" aria-hidden="true"></i> HTML</p></td>
+            <td><p><i class="fa fa-css3" aria-hidden="true"></i> CSS</p></td>
+          </tr>
+          <tr>
+            <td><p><i class="fa fa-file-text" aria-hidden="true"></i> Markdown</p></td>
+            <td><p><i class="fa fa-crosshairs" aria-hidden="true"></i> ROS</p></td>  
+          </tr>
+          <tr>
+            <td><p><i class="fa fa-windows" aria-hidden="true"></i> Windows</p></td>
+            <td><p><i class="fa fa-linux" aria-hidden="true"></i>Linux</p></td>
+          </tr>
+          <tr> 
+            <td><p><i class="fa fa-microchip" aria-hidden="true"></i> Machine Learning</p></td>
+            <td><p></p></td>
+          </tr>
+		      </table>
         <hr>
 
 
-        <!-- Software Packages -->
-        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Software Packages</b></p>
-        <!-- List -->
-        <table style="width:100%">
-        <tr>
-          <td><p title="Proficient"><i class="fa fa-cubes" aria-hidden="true"></i> Solidworks</p></td>
-          <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> Inkscape</p></td>
-        </tr>
-        <tr>
-          <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> Autodesk Fusion 360</p></td>
-          <td><p title="Proficient"><i class="fa fa-cubes" aria-hidden="true"></i> Adobe Illustrator</p></td>
-        </tr>
-        <tr>
-          <td><p title="Proficient"><i class="fa fa-cubes" aria-hidden="true"></i> Eagle PCB</p></td>
-          <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> CorelDRAW</p></td>
-        </tr>
-        <tr>
-          <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> NI Multisim</p></td>
-          <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> SMC PneuDraw</p></td>
-        </tr>
-        <tr>
-          <td><p title="Proficient"><i class="fa fa-ellipsis-v" aria-hidden="true"></i> MATLAB</p></td>
-          <td><p title="Proficient"><i class="fa fa-window-restore" aria-hidden="true"></i> NI LabVIEW</p></td> 
-        </tr>
-        <tr>
-          <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> Abaqus FEA</p></td>
-          <td><p> </p></td>
-        </tr>
-        <tr>
-          <td><p title="Proficient"><i class="fa fa-cubes" aria-hidden="true"></i> MS Office Suite</p></td>
-          <td><p title="Novice"><i class="fa fa-object-ungroup" aria-hidden="true"></i> Obsidian</p></td> 
-        </tr>
-        <tr>
-          <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> ATOM</p></td>
-          <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> Visual Code Studio</p></td>
-        </tr>
-        <tr>
-          <td><p title="Competent"><i class="fa fa-trello" aria-hidden="true"></i> Trello</p></td>
-          <td><p title="Competent"><i class="fa fa-slack" aria-hidden="true"></i> Slack</p></td>
-        </tr>
-        </table>
+<!-- Software Packages -->
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Software Packages</b></p>
+          <!-- List -->
+          <table style="width:100%">
+          <tr>
+            <td><p title="Proficient"><i class="fa fa-cubes" aria-hidden="true"></i> Solidworks</p></td>
+            <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> Inkscape</p></td>
+          </tr>
+          <tr>
+            <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> Autodesk Fusion 360</p></td>
+            <td><p title="Proficient"><i class="fa fa-cubes" aria-hidden="true"></i> Adobe Illustrator</p></td>
+          </tr>
+          <tr>
+            <td><p title="Proficient"><i class="fa fa-cubes" aria-hidden="true"></i> Eagle PCB</p></td>
+            <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> CorelDRAW</p></td>
+          </tr>
+          <tr>
+            <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> NI Multisim</p></td>
+            <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> SMC PneuDraw</p></td>
+          </tr>
+          <tr>
+            <td><p title="Proficient"><i class="fa fa-ellipsis-v" aria-hidden="true"></i> MATLAB</p></td>
+            <td><p title="Proficient"><i class="fa fa-window-restore" aria-hidden="true"></i> NI LabVIEW</p></td> 
+          </tr>
+          <tr>
+            <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> Abaqus FEA</p></td>
+            <td><p> </p></td>
+          </tr>
+          <tr>
+            <td><p title="Proficient"><i class="fa fa-cubes" aria-hidden="true"></i> MS Office Suite</p></td>
+            <td><p title="Novice"><i class="fa fa-object-ungroup" aria-hidden="true"></i> Obsidian</p></td> 
+          </tr>
+		      <tr>
+            <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> ATOM</p></td>
+            <td><p title="Competent"><i class="fa fa-cubes" aria-hidden="true"></i> Visual Code Studio</p></td>
+          </tr>
+		      <tr>
+            <td><p title="Competent"><i class="fa fa-trello" aria-hidden="true"></i> Trello</p></td>
+            <td><p title="Competent"><i class="fa fa-slack" aria-hidden="true"></i> Slack</p></td>
+          </tr>
+		      </table>
         <hr>
 
-        <!-- Affinity of Skills -->
-        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Affinity</b></p>
-        <p>Mechanics</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:80%"><p style="text-align:center">Proficient</p></div>
-        </div>
-        <p>Electrical & Electronics</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:80%"><p style="text-align:center">Proficient</p></div>
-        </div>
-        <p>Control</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:55%"><p style="text-align:center">Competent</p></div>
-        </div>
-        <p>Robotics & Automation</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:65%"><p style="text-align:center">Competent</p></div>
-        </div>
-        <p>Computing/Software</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:75%"><p style="text-align:center">Adept</p></div>
-        </div>
-        <p>Design & Illustration (2D/3D - CAD)</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:65%"><p style="text-align:center">Competent</p></div>
-        </div>
-        <p>Web Design</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:45%"><p style="text-align:center">Novice</p></div>
-        </div>
+<!-- Affinity of Skills -->
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Affinity</b></p>
+          <p>Mechanics</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:80%"><p style="text-align:center">Proficient</p></div>
+          </div>
+          <p>Electrical & Electronics</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:80%"><p style="text-align:center">Proficient</p></div>
+          </div>
+          <p>Control</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:55%"><p style="text-align:center">Competent</p></div>
+          </div>
+          <p>Robotics & Automation</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:65%"><p style="text-align:center">Competent</p></div>
+          </div>
+          <p>Computing/Software</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:75%"><p style="text-align:center">Adept</p></div>
+          </div>
+          <p>Design & Illustration (2D/3D - CAD)</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:65%"><p style="text-align:center">Competent</p></div>
+          </div>
+          <p>Web Design</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:45%"><p style="text-align:center">Novice</p></div>
+          </div>
         <hr>
 
-        <!-- Languages -->
-        <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Languages</b></p>
-        <p>English</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:100%"><p style="text-align:center">Native</p></div>
-        </div>
-        <p>Malay</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:100%"><p style="text-align:center">Native</p><</div>
-        </div>
-        <p>Mandarin</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:35%"><p style="text-align:center">Elementary</p><</div>
-        </div>
-        <p>Cantonese (Dialect)</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:45%"><p style="text-align:center">Conversation only</p><</div>
-        </div>
-        <p>Hakka (Dialect)</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:45%"><p style="text-align:center">Conversation only</p><</div>
-        </div>
-        <p>Japanese</p>
-        <div class="w3-light-grey w3-round-xlarge">
-          <div class="w3-round-xlarge w3-indigo" style="height:24px;width:25%"><p style="text-align:center">Simple</p><</div>
-        </div>
-        <hr>
+<!-- Languages -->
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:100%"><p style="text-align:center">Native</p></div>
+          </div>
+          <p>Malay</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:100%"><p style="text-align:center">Native</p><</div>
+          </div>
+          <p>Mandarin</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:35%"><p style="text-align:center">Elementary</p><</div>
+          </div>
+          <p>Cantonese (Dialect)</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:45%"><p style="text-align:center">Conversation only</p><</div>
+          </div>
+          <p>Hakka (Dialect)</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:45%"><p style="text-align:center">Conversation only</p><</div>
+          </div>
+          <p>Japanese</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:25%"><p style="text-align:center">Simple</p><</div>
+          </div>
+          <hr>
 
-        <!-- Off-time Actitivies -->
-        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Off-time Activities</b></p>
-        <!-- List -->
-        <table style="width:100%">
-        <tr>
-          <td><p><i class="fa fa-plane" aria-hidden="true"></i> Travelling</p></td>
-          <td><p><i class="fa fa-cutlery" aria-hidden="true"></i> Cooking</p></td>
-        </tr>
-        <tr>
-          <td><p><i class="fa fa-male" aria-hidden="true"></i> Hiking</p></td>
-          <td><p><i class="fa fa-hand-rock-o" aria-hidden="true"></i> Bouldering</p></td>
-        </tr>
-        <tr>
-          <td><p><i class="fa fa-square" aria-hidden="true"></i> Badminton</p></td>
-          <td><p><i class="fa fa-superpowers" aria-hidden="true"></i> Ultimate Frisbee</p></td>
-        </tr>
-        <tr>
-          <td><p title="FDM"><i class="fa fa-life-ring" aria-hidden="true"></i> 3D Printing</p></td>
-          <td><p title="(Gundam Plastic Models)"><i class="fa fa-joomla" aria-hidden="true"></i> Gunpla </p></td>
-        </tr>  
-
-        </table>
-        <hr>        
+<!-- Off-time Actitivies -->
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Off-time Activities</b></p>
+          <!-- List -->
+          <table style="width:100%">
+          <tr>
+            <td><p><i class="fa fa-plane" aria-hidden="true"></i> Travelling</p></td>
+            <td><p><i class="fa fa-cutlery" aria-hidden="true"></i> Cooking</p></td>
+          </tr>
+          <tr>
+            <td><p><i class="fa fa-male" aria-hidden="true"></i> Hiking</p></td>
+            <td><p><i class="fa fa-hand-rock-o" aria-hidden="true"></i> Bouldering</p></td>
+          </tr>
+          <tr>
+            <td><p><i class="fa fa-square" aria-hidden="true"></i> Badminton</p></td>
+            <td><p><i class="fa fa-superpowers" aria-hidden="true"></i> Ultimate Frisbee</p></td>
+          </tr>
+          <tr>
+            <td><p title="FDM"><i class="fa fa-life-ring" aria-hidden="true"></i> 3D Printing</p></td>
+            <td><p title="(Gundam Plastic Models)"><i class="fa fa-joomla" aria-hidden="true"></i> Gunpla </p></td>
+          </tr>  
+          
+		      </table>
+          <hr>        
+        </div><!--Contend End-->
+<!--
+        <div>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Printing Portal</b></p>
+            <!/--CryoPrint -/->
+            <div style="padding-left: 100px;">
+              <a href=""><i title="-UnderContruction"><img src="https://halo.wiki.gallery/images/f/f6/Main-Forerunner.png" style="width:50%"></i></a></div>
         </div>
-      <!--Contend End-->
-      </div><br>
-    </div> <!-- End Left Column -->
+-->
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
-      
-      <!-- Tab Buttons -->
-      <div class="tab-buttons">
-        <!--<button class="tab-button active" onclick="showTab('main')"><i class="fa fa-home fa-fw w3-xlarge" title="Home"></i></button> -->
-        <button class="tab-button active" onclick="showTab('work')"><i class="fa fa-suitcase fa-fw w3-xlarge" title="Work Experience"></i></button>
-        <button class="tab-button" onclick="showTab('education')"><i class="fa fa-graduation-cap fa-fw w3-xlarge" title="Academic"></i></button>
-        <button class="tab-button" onclick="showTab('projects')"><i class="fa fa-microchip fa-fw w3-xlarge" title="Projects"></i></button>
-        <button class="tab-button" onclick="showTab('certs')"><i class="fa fa-certificate fa-fw w3-xlarge" title="Training and Certificates"></i></button>
-        <button class="tab-button" onclick="showTab('cryoprint')"><i class="fa fa-cogs fa-fw w3-xlarge" title="CryoPrint"></i></button>
+      </div><!--Profle End-->
+    </div><!-- End Left Column -->
+  
+
+<!-- Right Column -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------  -->
+  <div class="w3-twothird">
+      <!-- Summary 
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Introduction</h2>
+        I have a degree in mechatronics and robotics engineering and have worked in the endoscope industry for several years. I have a strong background in product development and have a proven track record in bringing products to market. 
+        I have a keen eye for detail and a passion for quality. I am a strong communicator and have a good understanding of the medical regulatory landscape. I am a team player and have a strong work ethic.     
       </div>
-
-      <!-- Work Experience Tab -->
-      <div id="work" class="tab active w3-container w3-card w3-white w3-margin-bottom">
+      -->
+<!--  ------------------------------------------------------------- -->
+      <!-- Employment -->
+      <div id="Work" class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-black w3-padding-5"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Work Experience</h2>
         <div class="w3-container">
 
         <!-- Current! -->
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-          <h5><b>EIMEA Client Manager - Medical Device QMS Auditor</b></h5><a href="https://www.bsigroup.com/en-GB/"><img src="https://www.bsigroup.com/Areas/v1/UI/images/logos/bsi-logo.svg" class="companyIcon" alt="BSI-Icon" style="width:100px; height:60px;"></a>
-        </div>
+        <h5><b>EIMEA Client Manager - Medical Device QMS Auditor</b></h5> <a href="https://www.bsigroup.com/en-GB/" ><img src="https://www.bsigroup.com/Areas/v1/UI/images/logos/bsi-logo.svg" class="companyIcon" alt="BSI-Icon" style="width:100px;height:60px;"></a>
         <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2024 - <span class="w3-tag w3-indigo w3-round">Current</span></i> &nbsp; </h6>
         <h6><a href="https://www.bsigroup.com/en-GB/" ><i class="fa fa-briefcase fa-fw w3-margin-right" title="BSI"></i></a>British Standard Institution &nbsp; <i class="fa fa-map-marker fa-fw w3-margin-right"></i> EIMEA Region (Based in UK) </h6>
         <p style="text-align: justify">
@@ -334,9 +333,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <!-- Medical Development Engineer -->
         <div class="w3-container">
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h5><b>Medical Device Development Engineer</b></h5> <a href="https://www.atlasendoscopy.com/" ><img src="https://images.squarespace-cdn.com/content/v1/609bd4c7a9c5b75566393b5f/a9267d4e-fb56-42a4-9f15-d3783c5590cd/ATLAS+ENDOSCOPY+text.png?format=1500w" class="companyIcon" alt="AE-Icon" style="width:80px;height:60px;"></a>
-          </div>
+          <h5><b>Medical Device Development Engineer</b></h5> <a href="https://www.atlasendoscopy.com/" ><img src="https://images.squarespace-cdn.com/content/v1/609bd4c7a9c5b75566393b5f/a9267d4e-fb56-42a4-9f15-d3783c5590cd/ATLAS+ENDOSCOPY+text.png?format=1500w" class="companyIcon" alt="AE-Icon" style="width:80px;height:60px;"></a>
           <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2020 - May 2024 &nbsp; </h6>
           <h6><a href="https://www.atlasendoscopy.com/" ><i class="fa fa-user-md fa-fw w3-margin-right" title="Atlas Endoscopy"></i></a>Atlas Endoscopy &nbsp; <i class="fa fa-map-marker fa-fw w3-margin-right"></i>Leeds, UK </h6>
           <p style="text-align: justify">
@@ -371,10 +368,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         
         <!--RA-->
         <div class="w3-container">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-            <h5><b>Research Associate in Medical Device Development</b></h5> 
-            <a href="https://www.stormlabuk.com/"><img src="https://www.stormlabuk.com/wp-content/uploads/2019/07/STORMLABinv.png" class="companyIcon" alt="StormLabs" style="width:280px;height:60px;"></a>
-          </div>
+          <h5><b>Research Associate in Medical Device Development</b></h5> <a href="https://www.stormlabuk.com/"><img src="https://www.stormlabuk.com/wp-content/uploads/2019/07/STORMLABinv.png" class="companyIcon" alt="StormLabs" style="height:60px;"></a>
           <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2019 - Aug 2020 &nbsp; </h6>
           <h6><a href="https://www.stormlabuk.com/"><i class="fa fa-bolt fa-fw w3-margin-right" title="STORM Labs"></i></a>STORM Labs &nbsp; <i class="fa fa-map-marker fa-fw w3-margin-right"></i>University of Leeds, UK </h6>
           <p style="text-align: justify">
@@ -394,9 +388,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <!--RA-SR--->
         <div class="w3-container">
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h5><b>Research Assistant in Soft Robotic Devices</b></h5> <a href="https://eps.leeds.ac.uk/mechanical-engineering-research-design-robotics-optimisation/doc/healthcare-mechatronics"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
-          </div>
+        <h5><b>Research Assistant in Soft Robotic Devices</b></h5> <a href="https://eps.leeds.ac.uk/mechanical-engineering-research-design-robotics-optimisation/doc/healthcare-mechatronics"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
         <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2015 - Oct 2016 &nbsp; </h6>
         <h6><a href="https://eps.leeds.ac.uk/mechanical-engineering-research-design-robotics-optimisation/doc/healthcare-mechatronics"><i class="fa fa-building fa-fw w3-margin-right" title="Healthcare Mechatronics"></i></a>Healthcare Mechatronics &nbsp; <i class="fa fa-map-marker fa-fw w3-margin-right"></i>University of Leeds, UK</h6>
         <p style="text-align: justify">
@@ -429,9 +421,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <!--RA-SR-Intern-->
         <div class="w3-container"> 
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h5><b>Research Internship</b></h5> <a href="https://eps.leeds.ac.uk/mechanical-engineering-research-design-robotics-optimisation/doc/healthcare-mechatronics"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
-          </div>
+        <h5><b>Research Internship</b></h5> <a href="https://eps.leeds.ac.uk/mechanical-engineering-research-design-robotics-optimisation/doc/healthcare-mechatronics"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
         <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2015 - Sept 2015 &nbsp; </h6>
         <h6><a href="https://eps.leeds.ac.uk/mechanical-engineering-research-design-robotics-optimisation/doc/healthcare-mechatronics"><i class="fa fa-building fa-fw w3-margin-right" title="Healthcare Mechatronics"></i></a>Healthcare Mechatronics &nbsp; <i class="fa fa-map-marker fa-fw w3-margin-right"></i>University of Leeds, UK</h6>
         <p style="text-align: justify">
@@ -449,9 +439,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <!--TA-->
         <div class="w3-container">
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h5><b>Teaching / Laboratory Assistant</b></h5> <a href="https://eps.leeds.ac.uk/"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
-          </div>
+          <h5><b>Teaching / Laboratory Assistant</b></h5> <a href="https://eps.leeds.ac.uk/"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
           <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2013 - Sept 2019 &nbsp; </h6>
           <h6><a href="https://eps.leeds.ac.uk/"><i class="fa fa-building fa-fw w3-margin-right" title="Faculty of Engineering and Physical Sciences"></i></a>Faculty of Engineering &nbsp; <i class="fa fa-map-marker fa-fw w3-margin-right"></i>University of Leeds, UK</h6>
           <p style="text-align: justify">
@@ -506,9 +494,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <!--PM/STD-Guide-->
         <div class="w3-container">
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h5><b>Peer Mentor / Student Guide</b></h5> <a href="https://eps.leeds.ac.uk/"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
-          </div>
+        <h5><b>Peer Mentor / Student Guide</b></h5> <a href="https://eps.leeds.ac.uk/"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
         <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2013 - Sept 2015 &nbsp;&nbsp <a href="https://eps.leeds.ac.uk/electronic-engineering"><i class="fa fa-building fa-fw w3-margin-right" title="School of Electrical & Electronic"></i></a></h6>
         <h6><a href="https://eps.leeds.ac.uk/"><i class="fa fa-building fa-fw w3-margin-right" title="Faculty of Engineering and Physical Sciences"></i></a>Faculty of Engineering &nbsp; <i class="fa fa-map-marker fa-fw w3-margin-right"></i>University of Leeds, UK</h6>
         <p style="text-align: justify">
@@ -523,10 +509,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </p>
         </div>
         <br>
-      </div>
-      <!-- End Employment -->
-      <!-- Education Tab -->
-      <div id="education" class="tab w3-container w3-card w3-white">
+      </div><!--End -->
+
+<!--  ------------------------------------------------------------- -->
+<!-- Research/Academic Experience -->
+      <div id="Academic" class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-black w3-padding-5"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Academic Qualifications</h2>
         <!-- PhD -->
         <div class="w3-container"> <a href="https://eps.leeds.ac.uk/"><img src="https://comms.leeds.ac.uk/wp-content/uploads/sites/51/2021/04/Visual-identity-section-images--e1618925864440.png" class="companyIcon" alt="UoLeeds-Icon" style="height:60px;"></a>
@@ -575,19 +562,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </p>
           <br>
         </div>
-      </div>
-      <!-- End Education -->
-      <!-- Engineering Projects (incl-ref to Published works)-->
-      <div id="projects" class="tab w3-container w3-card w3-white">
+
+      </div><!--End -->
+
+
+<!--  ------------------------------------------------------------- -->
+<!-- Engineering Projects (incl-ref to Published works)-->
+      <div id="Proj" class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-black w3-padding-5"><i class="fa fa-microchip fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Engineering Projects</h2>
-        <p>For list of publication, see Google Scholar Link: &nbsp &nbsp <a href=https://scholar.google.com/citations?user=vYKEwHMAAAAJ&hl=en><i class="fa fa-google-plus fa-fw w3-margin-right w3-large w3-text-indigo" title="Google Scholar"></i></a></p>
+	      <p>For list of publication, see Google Scholar Link: &nbsp &nbsp <a href=https://scholar.google.com/citations?user=vYKEwHMAAAAJ&hl=en><i class="fa fa-google-plus fa-fw w3-margin-right w3-large w3-text-indigo" title="Google Scholar"></i></a></p>
         <h4 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2024 - Present</h4>
         <div class="w3-container">
           <ul>
             <li>Design of an ENT Endoscope Docking System (In collaboration with CCB Medical, Penang, Malaysia)</li>
             
           </ul>
-        </div><!--End 2024 - Present-->
+        </div><!--End -->
 
         <h4 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2024</h4>
         <div class="w3-container">
@@ -597,9 +587,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <li>Emergency department flow optimisation by using artificial intelligence and machine learning models to predict admission into hospital
             <br> (In collaboration with Dr Lim Mun Kiong)</li>
             <li>Design of a mobile ENT Endosocope 
-              <br> (In collaboration with CCB Medical, Penang, Malaysia)</li>            
+              <br> (In collaboration with CCB Medical, Penang, Malaysia)</li>
+            
           </ul>
-        </div><!--End 2020-2024 -->
+        </div><!--End -->
 
         <h4 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h4>
         <div class="w3-container">
@@ -616,7 +607,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <li>Fabrication of a Soft Reactive Bio-incubator for Muscle Cell Growth 
               <br> (In-collaboration with St-James Teaching Hospital, Leeds, UK)</li>
           </ul>
-        </div><!--End 2016-2020-->
+        </div><!--End -->
 
         <h4 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2016</h4>
         <div class="w3-container">
@@ -624,14 +615,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <li>Development of a Soft Robotic Control Platform</li>
             <li>Towards Self-Tuning Lower Limb Prothesis</li>
           </ul>
-        </div><!--End 2015-2016-->
+        </div><!--End -->
+      </div><!--End -->
 
-      </div>
-      <!--End Engineering Projects -->
-
-      <!-- Training and Certification -->
-      <div id="certs" class="tab w3-container w3-card w3-white">
-        <h2 class="w3-text-black w3-padding-5"><i class="fa fa-th fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Certifications & Training</h2>
+      
+<!--  ------------------------------------------------------------- -->
+<!-- Training & Certification -->
+      <div id="Cert" class="w3-container w3-card w3-white w3-margin-bottom">
+	      <h2 class="w3-text-black w3-padding-5"><i class="fa fa-th fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Certifications & Training</h2>
         <div class="w3-container">
           <p>
             <ul>
@@ -646,42 +637,49 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
               <li>ALLSAFE-Food Hygiene Distance Learning course, Advance Food Safety Ltd, UK</li>
             </ul>
           </p>
-        </div><!--End -->
-      </div> 
-      <!-- End Training and Certs -->
-      <!-- CryoPrint-->
-      <div id="cryoprint" class="tab w3-container w3-card w3-white">
-        <h2 class="w3-text-black w3-padding-5"><i class="fa fa-th fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Updating Soon...</h2>
+	      </div><!--End -->
+        </div> 
+        
+<!--  ------------------------------------------------------------- --> 
+<!-- Publications -/->
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-black w3-padding-6"><i class="fa fa-book fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Publications</h2>
         <div class="w3-container">
-          <p>
-          </p>
-        </div><!--End -->
-      </div>
-      <!--End CryoPrint-->
+        </div>
+      </div><!-/- End -->
 
-    <!-- End Right Column -->
-    </div>
-<!--------------------------------------------------------------------------->
+<!--  ------------------------------------------------------------- -->      
+<!-- Tinkering/3D Printer -/->
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+	      <h2 class="w3-text-grey w3-padding-10"><i class="fa fa-spinner fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Hobby/Tinkering</h2>
+        <h4 class="w3-opcaity"><b>3D Printing - VORON 2.4</b></h4>
+        <div class="w3-container">
+	      </div>
+      </div> <!-/-End -/->
+
+    </div><!-/- End Right Column -->
+
+<!--  ------------------------------------------------------------- --> 
+<!--  ------------------------------------------------------------- --> 
   <!-- End Grid -->
   </div>
-  <!-- End Page Container -->
-</div>
+<!-- End Page Container -->
+</div> <!-- Page End[Main Body End]-->
 
 
-
-<script>
-function showTab(tabId) {
-  // Hide all tabs
-  document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-  // Deactivate all buttons
-  document.querySelectorAll('.tab-button').forEach(button => button.classList.remove('active'));
-  // Show selected tab
-  document.getElementById(tabId).classList.add('active');
-  // Activate selected button
-  document.querySelector(`.tab-button[onclick="showTab('${tabId}')"]`).classList.add('active');
-
-}// End Function
-</script>
-
+<!--  ------------------------------------------------------------- -->
+<!-- Footer -->
+<!--
+<footer class="w3-container w3-indigo w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+-->
 </body>
 </html>
