@@ -93,8 +93,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
               <td><p><a href="https://github.com/jiredo/jiredo/blob/main/CV/JunKowCV_24.pdf"><i class="fa fa-file fa-fw w3-margin-right w3-large w3-text-indigo" title="CV.pdf"></i></a></p></td> <!-- CV link to PDF-->
             </tr>
           </table>
+        </div>
         <!-- End Profile Content -->          
-         <!-- Technical Skills -->
+      
+        <!--Left Tab Buttons -->
+        <div class="left-tab-buttons">
+          <button class="tab-button active" onclick="showTab('tech')"><i class="fa fa-suitcase fa-fw w3-xlarge" title="Technical Experience"></i></button>
+          <button class="tab-button" onclick="showTab('education')"><i class="fa fa-graduation-cap fa-fw w3-xlarge" title="Academic"></i></button>
+          <button class="tab-button" onclick="showTab('projects')"><i class="fa fa-microchip fa-fw w3-xlarge" title="Projects"></i></button>
+          <button class="tab-button" onclick="showTab('certs')"><i class="fa fa-certificate fa-fw w3-xlarge" title="Training and Certificates"></i></button>
+          <button class="tab-button" onclick="showTab('cryoprint')"><i class="fa fa-cogs fa-fw w3-xlarge" title="CryoPrint"></i></button>
+        </div>        
+
+        <!-- Technical Skills -->
+        <div id="tech" class="w3-container">
          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Manufacturing Know-how</b></p>
          <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Additive Manufacturing</p>
          <p> &nbsp;&nbsp <i class="fa fa-cog" aria-hidden="true"></i> Fused Deposition Manufacturing (FDM)</p>
@@ -109,9 +121,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
          <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Workshop/Machining</p>
          <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Bespoke Manufacturing</p>
          <hr>
-
+        </div>
         
+
         <!-- Programming languages-->
+        <div class="w3-container">
         <p class="w3-large" style="width:auto"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Programming Know-how</b></p>
         <!-- List -->
         <table style="width:100%">
@@ -145,8 +159,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </tr>
         </table>
         <hr>
-
-
+    
         <!-- Software Packages -->
         <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Software Packages</b></p>
         <!-- List -->
@@ -189,8 +202,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </tr>
         </table>
         <hr>
+        </div>
 
         <!-- Affinity of Skills -->
+        <div class="w3-container">
         <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Affinity</b></p>
         <p>Mechanics</p>
         <div class="w3-light-grey w3-round-xlarge">
@@ -281,7 +296,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <!-- Right Column -->
     <div class="w3-twothird">
       
-      <!-- Tab Buttons -->
+      <!-- Right-Tab Buttons -->
       <div class="tab-buttons">
         <!--<button class="tab-button active" onclick="showTab('main')"><i class="fa fa-home fa-fw w3-xlarge" title="Home"></i></button> -->
         <button class="tab-button active" onclick="showTab('work')"><i class="fa fa-suitcase fa-fw w3-xlarge" title="Work Experience"></i></button>
